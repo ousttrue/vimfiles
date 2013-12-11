@@ -12,3 +12,6 @@ au BufRead,BufNewFile *.nut setf squirrel
 " waf file
 au BufRead,BufNewFile wscript setf python
 
+" template
+au BufNewFile premake4.lua 0r $HOME/vimfiles/template/premake4.lua
+
