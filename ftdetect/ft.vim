@@ -14,6 +14,7 @@ au BufRead,BufNewFile wscript setf python
 
 " template
 au BufNewFile premake4.lua 0r $HOME/vimfiles/template/premake4.lua
+au BufNewFile *.csproj 0r $HOME/vimfiles/template/default.csproj
 
 " unity shader
 au BufRead,BufNewFile *.shader setf javascript
